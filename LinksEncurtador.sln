@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinksEncurtador.Core", "LinksEncurtador\LinksEncurtador.Core.csproj", "{822CCB75-F748-41AB-B3DA-AF035BA52F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinksEncurtador.Tests", "LinksEncurtador.Tests\LinksEncurtador.Tests.csproj", "{0E1DF6D8-624B-44A1-820C-FD6BD6BD987C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{822CCB75-F748-41AB-B3DA-AF035BA52F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822CCB75-F748-41AB-B3DA-AF035BA52F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822CCB75-F748-41AB-B3DA-AF035BA52F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822CCB75-F748-41AB-B3DA-AF035BA52F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1DF6D8-624B-44A1-820C-FD6BD6BD987C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1DF6D8-624B-44A1-820C-FD6BD6BD987C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1DF6D8-624B-44A1-820C-FD6BD6BD987C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1DF6D8-624B-44A1-820C-FD6BD6BD987C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7158BB9D-1280-4F69-B23E-DCFAA02184D7}
+	EndGlobalSection
+EndGlobal

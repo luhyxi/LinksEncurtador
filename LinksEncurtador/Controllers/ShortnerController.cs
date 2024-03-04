@@ -10,12 +10,12 @@ namespace LinksEncurtador.Core.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class RequisicaoURLController : ControllerBase
+    public class ShortnerController : ControllerBase
     {
         private readonly AppDbContext _context;
         private readonly HttpContext _httpContext;
         private readonly URLShortening _shortener;
-        public RequisicaoURLController(AppDbContext context, URLShortening shortener)
+        public ShortnerController(AppDbContext context, URLShortening shortener)
         {
             _context = context;
             _shortener = shortener;
